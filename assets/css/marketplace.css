@@ -1,0 +1,53 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+section#header {
+    position: relative;
+}
+
+.hero-section-image {
+    position: absolute;
+    z-index: -1;
+    position: absolute;
+    margin-left: 67%;
+    display: block;
+    max-height: 280px;
+    height: 100%;
+    width: 33%;
+    float: right;
+    background: #fff 0 0 no-repeat;
+    background-image: url('../images/hero-home-pk.jpg?width=800&height=512');
+    background-size: cover;
+}
+
+.bg-color-none {
+    background-color: unset;
+}
+
+section#header input[type="text"] {
+    border-radius: 0;
+    line-height: 50px;
+}
+
+.has-float-label {
+    width: 100%;
+}
+
+div#find>div {
+    background: #fff;
+    box-shadow: 5px 5px 2em #ccc;
+    padding: 15px;
+}
+
+.btn-theme {
+    background-color: #d70f64;
+}
+
+.color-white {
+    color: white;
+}
+div#find button {
+    line-height: 50px;
+    border-radius: 0;
+}
